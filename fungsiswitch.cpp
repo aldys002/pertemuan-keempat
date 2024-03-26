@@ -22,7 +22,7 @@ int pengurangan (inta, int b)
 }
 int perkalian (inta a, intb)
 {
-    return a
+    return a * b;
 }
 
 int main()
