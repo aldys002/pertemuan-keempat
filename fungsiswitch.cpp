@@ -18,7 +18,11 @@ int penjumlahan (int a, int b)
 }
 int pengurangan (inta, int b)
 {
-    return a + b;
+    return a - b;
+}
+int perkalian (inta a, intb)
+{
+    return a
 }
 
 int main()
