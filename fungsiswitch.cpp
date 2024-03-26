@@ -16,6 +16,10 @@ int penjumlahan (int a, int b)
 {
     return a + b; 
 }
+int pengurangan (inta, int b)
+{
+    return a + b;
+}
 
 int main()
 {
@@ -34,6 +38,7 @@ int main()
         cin >> pilihan;
 
         switch (pilihan)
+        {
 
         case 1:
             inputData();
@@ -43,8 +48,23 @@ int main()
              inputData();
              cout << "Hasil pengurangan = " << pengurangan(bilangan1, bilangan2) <<endl;
              break;
+        case 3:
+            inputData();
+            cout << "Hasil perkalian = " << perkalian(bilangan1, bilangan2) <<endl;
+            break;
+        case 4:
+            inputData();
+            cout << "Hasil pembagian = " << pembagian(bilangan1, bilangan2) <<endl;
+            break;
+        case 5:
+             break;
+        
+        default:
+           cout << "pilihan tidak ada <<endl;" <<endl;
+           break;
+        }
 
-    } while (/* condition */);
+    } while (!=5);
     
     
 }
