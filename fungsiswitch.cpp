@@ -72,9 +72,8 @@ int main()
            cout << "pilihan tidak ada <<endl;" <<endl;
            break;
         }
-        system("Pause");
+        system("pause");
         system("ClS");
     } while (pilihan !=5);
-    
-    
+
 }
